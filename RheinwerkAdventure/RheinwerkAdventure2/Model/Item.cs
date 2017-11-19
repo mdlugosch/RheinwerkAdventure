@@ -8,18 +8,18 @@ using System.Threading.Tasks;
 namespace RheinwerkAdventure.Model
 {
     // Basisklasse für alle Spielobjekte
-    class Item
+    internal class Item
     {
         public Vector2 Position
         {
             get;
-            private set;
+            set;
         }
 
         public float Radius
         {
             get;
-            private set;
+            set;
         }
 
         public Item()

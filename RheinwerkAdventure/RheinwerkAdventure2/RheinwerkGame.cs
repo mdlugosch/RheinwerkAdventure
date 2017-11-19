@@ -21,6 +21,9 @@ namespace RheinwerkAdventure
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             graphics.IsFullScreen = false;
+            // Fenstergrösse festlegen.
+            graphics.PreferredBackBufferHeight = 2000;
+            graphics.PreferredBackBufferWidth = 3000;
 
             // Objektinstanzen erzeugen
             Input = new InputComponent(this);

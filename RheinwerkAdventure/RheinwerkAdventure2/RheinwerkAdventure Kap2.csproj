@@ -50,6 +50,7 @@
     <Compile Include="Model\Character.cs" />
     <Compile Include="Model\Dealer.cs" />
     <Compile Include="Model\Decard.cs" />
+    <Compile Include="Model\Diamant.cs" />
     <Compile Include="Model\Heidi.cs" />
     <Compile Include="Model\Item.cs" />
     <Compile Include="Model\Orc.cs" />

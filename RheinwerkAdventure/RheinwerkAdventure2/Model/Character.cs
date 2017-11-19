@@ -12,7 +12,7 @@ namespace RheinwerkAdventure.Model
         public Vector2 Velocity
         {
             get;
-            private set;
+            set;
         }
 
         public Character()
