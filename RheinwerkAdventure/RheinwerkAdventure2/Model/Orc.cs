@@ -9,10 +9,17 @@ namespace RheinwerkAdventure.Model
 {
     class Orc : Character, IAttackable
     {
-        public int Hitpoints => throw new NotImplementedException();
 
         public Orc()
         {
+        }
+
+        public int Hitpoints
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
         }
     }
 }

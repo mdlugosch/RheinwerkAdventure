@@ -9,11 +9,17 @@ namespace RheinwerkAdventure.Model
 {
     class Player : Character, IAttackable
     {
-        public int Hitpoints => throw new NotImplementedException();
 
         public Player()
         {
         }
-       
+
+        int IAttackable.Hitpoints
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+        }
     }
 }

@@ -45,6 +45,7 @@
     <Compile Include="Components\SceneComponent.cs" />
     <Compile Include="Components\SimulationComponent.cs" />
     <Compile Include="Interfaces\IAttackable.cs" />
+    <Compile Include="Interfaces\ICollidable.cs" />
     <Compile Include="Interfaces\IInteractable.cs" />
     <Compile Include="Model\Area.cs" />
     <Compile Include="Model\Character.cs" />
@@ -53,6 +54,7 @@
     <Compile Include="Model\Diamant.cs" />
     <Compile Include="Model\Heidi.cs" />
     <Compile Include="Model\Item.cs" />
+    <Compile Include="Model\Layer.cs" />
     <Compile Include="Model\Orc.cs" />
     <Compile Include="Model\Player.cs" />
     <Compile Include="Model\Tile.cs" />

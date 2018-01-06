@@ -10,6 +10,7 @@ namespace RheinwerkAdventure.Model
     {
         public Diamant()
         {
+            Mass = 0.5f;
         }
     }
 }

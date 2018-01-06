@@ -9,6 +9,12 @@ namespace RheinwerkAdventure.Model
     // Stellt eine Zelle Innerhalb der Area da.
     class Tile
     {
+        public bool Blocked
+        {
+            get;
+            set;
+        }
+
         public Tile()
         {
         }
