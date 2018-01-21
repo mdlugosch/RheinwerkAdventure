@@ -73,7 +73,7 @@ namespace RheinwerkAdventure.Components
                         float overlap = item.Radius + character.Radius - distance.Length();
 
                         // Ween sich in Angriffsreichweite ein angreifbares Item befindet wird es der List hinzugefügt
-                        if (item is IAttackable && distance.Length() - attacker.AttackRange - item.Radius < 0))
+                        if (item is IAttackable && distance.Length() - attacker.AttackRange - item.Radius < 0)    
                         {
                                 attacker.AttackableItems.Add(item);
                         }

@@ -41,6 +41,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Components\HudComponent.cs" />
     <Compile Include="Components\InputComponent.cs" />
     <Compile Include="Components\SceneComponent.cs" />
     <Compile Include="Components\SimulationComponent.cs" />
@@ -77,6 +78,10 @@
   <ItemGroup>
     <MonoGameContentReference Include="Content\Content.mgcb" />
     <None Include="app.manifest" />
+    <None Include="Content\HudFont.spritefont" />
+    <None Include="Content\HudFont.xnb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

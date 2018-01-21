@@ -12,6 +12,7 @@ namespace RheinwerkAdventure
         GraphicsDeviceManager graphics;
 
         // Zugriff auf Component Klassen über Properties
+        public HudComponent Hud { get; private set; }
         internal InputComponent Input { get; private set; }
         internal SceneComponent Scene { get; private set; }
         internal SimulationComponent Simulation { get; private set; }
@@ -46,6 +47,10 @@ namespace RheinwerkAdventure
             Simulation.UpdateOrder = 1;
             Scene.UpdateOrder = 2;
 
+            Hud = new HudComponent(this);
+            Hud.UpdateOrder = 3;
+            Hud.DrawOrder = 1;
+            Components.Add(Hud);
         }
 
         // Nicht verwendet
